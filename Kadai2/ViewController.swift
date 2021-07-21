@@ -25,10 +25,10 @@ class ViewController: UIViewController {
         case 2:
             resultLabel.text =  String(number1 * number2)
         case 3:
-            if number2 != 0 {
-                resultLabel.text =  String(number1 / number2)
-            } else {
+            if number2 == 0 {
                 resultLabel.text = "割る数には0以外を入力してください"
+            } else {
+                resultLabel.text =  String(number1 / number2)
             }
         default:
             break
