@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kadai2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Ix-D1-bzr">
-                                <rect key="frame" x="90" y="74" width="248" height="35"/>
+                                <rect key="frame" x="90" y="74" width="195" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="UXm-ig-KTl"/>
                                 </constraints>
@@ -25,7 +25,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwB-Z8-dYE">
-                                <rect key="frame" x="90" y="129" width="248" height="35"/>
+                                <rect key="frame" x="90" y="129" width="195" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="gFK-AK-xz9"/>
                                 </constraints>
@@ -33,7 +33,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="AEz-PW-FbR">
-                                <rect key="frame" x="90" y="184" width="248" height="36"/>
+                                <rect key="frame" x="90" y="184" width="195" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="zUa-JG-cok"/>
                                 </constraints>
@@ -45,7 +45,7 @@
                                 </segments>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIg-qa-egv">
-                                <rect key="frame" x="90" y="239" width="248" height="35"/>
+                                <rect key="frame" x="90" y="239" width="195" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Vgr-nw-3bZ"/>
                                 </constraints>
@@ -56,7 +56,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yfe-d7-yZu">
-                                <rect key="frame" x="20" y="294" width="388" height="35"/>
+                                <rect key="frame" x="20" y="294" width="335" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="tMm-oF-X7k"/>
                                 </constraints>
